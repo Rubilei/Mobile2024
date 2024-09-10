@@ -15,7 +15,9 @@
 }
 .container_imagem{
     display: flex;
-    justify-content: flex-start;    
+      
+    /* flex-flow: nowrap; */  
+    flex-wrap: nowrap;  
     padding: 1em;
 }
 .poppins-regular {
