@@ -7,6 +7,7 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap; 
     align-items: center;
 }
 .container{
@@ -15,9 +16,7 @@
 }
 .container_imagem{
     display: flex;
-      
-    /* flex-flow: nowrap; */  
-    flex-wrap: nowrap;  
+    justify-content: flex-start;    
     padding: 1em;
 }
 .poppins-regular {
