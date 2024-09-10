@@ -11,9 +11,11 @@
 }
 .container{
     display: flex;
-    justify-content: flex-start;    
+    align-items: center;
 }
 .container_imagem{
+    display: flex;
+    justify-content: flex-start;    
     padding: 1em;
 }
 .poppins-regular {
